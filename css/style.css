@@ -1,0 +1,258 @@
+@font-face {
+  font-family: 'Neue Machina';
+  src: url('D:/Arquivos/arquivos-fagner/portfolio/fonts/PPNeueMachina-Free_for_persoanl_use/PPNeueMachina-Free for persoanl use/PPNeueMachina-Regular.otf') format('otf');
+  font-weight: bold;
+  font-style: normal;
+}
+* {
+  font-family: 'Neue Machina', sans-serif;
+  font-weight: normal;
+  color: white;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  background-color: black;
+  height: auto;/*Altura da pagina*/
+  width: auto;/*Largura da pagina*/
+  position: relative;
+}
+p {
+  font-family: 'Open Sans';
+}
+#imagem-de-bacgroud {
+  height: 412px;
+  width: 412px;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+#imagem-backgroud2 {
+  position: absolute;
+  height: 412px;
+  width: 412px;
+  bottom: 0;
+  z-index: 2;
+}
+#Conteiner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  width: 400px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  margin: 10px;
+  gap: 5px;
+  z-index: 3;
+  position: relative;
+}
+#conteinerMenu {
+  display: flex;
+  flex-direction: row;
+  width: 390px;
+  justify-content: right;
+}
+#menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 60px;
+}
+#conteiner-do-logo {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 384px;
+  margin: 10px 10px;
+}
+#logo-dio {
+  height: 30px;
+  bottom: 0;
+}
+header {
+  display: flex;
+  align-items: center;
+  /*justify-content: center;*/
+  flex-direction: column;
+  height: 100%;
+  gap: 15px;
+}
+#foto {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+h1 {
+  font-family: 'Neue Machinas', sans-serif;
+  color: white;
+  margin-block: 0;
+}
+h2 {
+  font-family: 'Neue Machinas', sans-serif;
+  color: white;
+  font-weight: bold;
+}
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+}
+.informacao {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Alinha à esquerda */
+  justify-content: center;
+  height: auto;
+}
+
+.informacaoPessoal {
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* Centraliza verticalmente */
+  text-align: left; /* Alinha o texto à esquerda */
+  justify-content: flex-start; /* Alinha os itens à esquerda */
+  margin-bottom: 4px;
+  gap: 5px;
+}
+.secaoDeImformacao {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 360px;
+  border: 2px solid #ffffff;
+  border-radius: 15px;
+  padding: 10px 10px;
+  margin-bottom: 10px;
+}
+.informacaoPessoal > img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 15px;
+  height: 15px;
+}
+h2 {
+  margin-block: 0;
+}
+.butao {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+  height: 0;
+  width: 30px;
+  padding: 0;
+}
+/* seta do menu de informação*/
+.material-symbols-outlined {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 28px;
+  width: 28px;
+}
+/*
+.secaoDeImformacao:hover {
+  background-color: #55569e;
+  border-color: #55569e;
+  
+}
+*/
+.icones {
+  height: 40px;
+  width: 40px;
+}
+.botao {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  width: 360px;
+  padding: 0;
+}
+.habilidades {
+  display: none;
+}
+.habilidades > div {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.habilidades > ul {
+  margin-block: 0;
+}
+.habilidades > p {
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+#idioma {
+  display: none;
+}
+
+#conquistas > h3, div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#conquistas > div {
+  width: 360px;
+  flex-direction: row;
+  gap: 10px;
+}
+#conquistas > div > img {
+  height: 60px;
+  width: 60px;
+}
+#conquistas {
+  display: none;
+}
+#local-do-curso {
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+}
+#local-do-curso > p {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+#local-do-curso > p + p{
+  margin-top: 0;
+  font-weight: normal;
+}
+.github {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 6px;
+}
+
+.github > p {
+  font-weight: bold;
+  margin: 6px 0;
+}
+.icone-do-github {
+  height: 24px;
+  width: 24px;
+}
+.secaoDeImformacao > a {
+  display: none;
+  text-align: left;
+  font-size: small;
+  margin-bottom: 10px;
+}
+.material-symbols-outlined {
+  display: flex;
+}
